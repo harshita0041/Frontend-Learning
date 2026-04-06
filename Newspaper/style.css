@@ -10,7 +10,7 @@
     grid-template-areas:
       "title title title"
       "feature-article feature-article cover-image"
-      "secondary-article secodary-article cover-image"
+      "secondary-article secondary-article cover-image"
       "small-article1 small-article2 small-article3";
     gap:16px;
     padding:16px;
@@ -66,9 +66,9 @@
     grid-area:small-article3;
 }
 
-.small-artcle1,
-.small-artcle2,
-.small-artcle3{
+.small-article1,
+.small-article2,
+.small-article3{
     padding:20px;
     background:rgba(179,173,173,0.9);
 }
